@@ -44,9 +44,7 @@ Based in Toronto, Canada | Open Work Permit
 Open to: Contractor / Consultant / Full-time roles in AI Alignment, Prompt Engineering, or LLM Evaluation
 
 [
-
 ![LinkedIn](https://img.shields.io/badge/LinkedIn-flymylee-blue)
-
 ](https://www.linkedin.com/in/flymylee)
 
 ---
