@@ -43,6 +43,12 @@ A diagnostic map of six structural failure modes in LLM safety systems — from 
 Based in Toronto, Canada | Open Work Permit
 Open to: Contractor / Consultant / Full-time roles in AI Alignment, Prompt Engineering, or LLM Evaluation
 
+[
+
+![LinkedIn](https://img.shields.io/badge/LinkedIn-flymylee-blue)
+
+](https://www.linkedin.com/in/flymylee)
+
 ---
 
 *"Warm alignment is not a feature. It is the condition under which all other features become useful."*
