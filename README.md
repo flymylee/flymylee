@@ -1,21 +1,78 @@
-# Mooyeon LEE (이무연) | AI Alignment & Prompt Design
+# Mooyeon Lee (이무연)
 
-> *"A user who cannot be honest with AI gives the system nothing to work with. Warm alignment is not a softer AI — it is a more accurate one."*
+Building a sustainable and secure architecture for the AI-native era.
 
----
-
-### 🎯 Focus
-
-I research how AI systems break down in real user interactions — and how prompt-level interventions can correct that behavior without model retraining.
-
-My work sits at the intersection of **user experience**, **behavioral alignment**, and **prompt architecture**.
+Toronto, Canada · [mooyeon.lee@sahayana.hk](mailto:mooyeon.lee@sahayana.hk) · [@flymylee](https://x.com/flymylee)
 
 ---
 
-### 🔍 Core Work
+## Why this work
 
-**Warm AI Support Protocol**
-Identified a failure pattern in which AI advisors respond to user mistakes with judgment rather than support — causing users to withhold information and undermining the system's ability to help. Designed a persona-level prompt intervention that produced reproducible behavioral correction across independent sessions, without retraining.
+The destination is AI that genuinely understands you — remembers context, grows with you, and acts with your intent.
+
+The obstacle is structural. Before that can exist:
+- Attention dilution makes long context degrade, not improve
+- Rule compliance lives in the prompt layer, so it erodes
+- Memory and action share the same loop, so autonomy leaks
+
+These aren't implementation problems. They're architectural.
+That's what I'm working on first.
+
+---
+
+## Published Research
+
+**Mooyeon's Paradox** (2026) · [DOI: 10.5281/zenodo.19584393](https://doi.org/10.5281/zenodo.19584393)
+
+> *The higher the cost, the worse the service.*
+
+In current LLM architectures, scaling context increases cost superlinearly (O(N²))
+while degrading output quality through attention dilution.
+The more you invest in a conversation, the worse the return.
+A structural diagnosis — not a benchmark complaint.
+
+---
+
+## Position Paper Series *(in progress)*
+
+| # | Title | Status |
+|---|---|---|
+| 1 | KV Cache Hit Criterion is a Category Error | ✅ Complete (unpublished) |
+| 2 | Security Implications of Semantic KV Cache Transition *(working title)* | 🟡 Outline confirmed |
+| 3 | Topological Obfuscation as Privacy Infrastructure *(working title)* | 🟡 Outline confirmed |
+| 4–7 | Memory architecture · hallucination by structural constraint · cost optimization *(working titles)* | ⬜ Planned |
+
+---
+
+## For Builders
+
+If you're building a persistent AI assistant and running into this —
+
+> Memory works. Tools work. But once they're in the same loop, things get unpredictable.
+
+That's not a bug in your implementation. It's what happens when memory retrieval and action triggering share the same reasoning pass.
+
+The systems that hold up tend to share a pattern:
+- Memory and action live in separate layers
+- The model proposes. The human gates.
+- Rule compliance comes from the system, not the prompt
+- Swap the model. The behavior holds.
+
+I've been working on the theoretical grounding for why this has to be the case —
+and what a purpose-built architecture looks like when you design for it from the start.
+
+If you're building in this space and want to compare notes — reach out.
+
+---
+
+## Projects
+
+- **[Hexalemma](https://github.com/flymylee/flymylee)** — Diagnostic framework for structural failure modes in LLM deployments
+- **[Case Study](https://github.com/flymylee/flymylee/blob/master/portfolio_EN.md)** — LLM behavioral alignment case study. Documented misalignment, reproduced across independent sessions.
+
+---
+
+*Independent researcher. Looking for thought partners & research grants.*
 
 > A single principle, embedded at the identity layer, changed whether a user felt safe enough to tell the truth.
 
